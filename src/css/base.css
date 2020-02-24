@@ -1,0 +1,52 @@
+/* 
+  图标主题色：#00A1D6
+*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1414px;
+    }
+}
+
+
+/* 公共样式渐变背景透明色 */
+
+#app .bgcolor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0));
+}
+
+#app a,
+#app i {
+    text-decoration: none;
+}
+
+#app .container {
+    padding: 0;
+}
+
+#app a:hover {
+    color: #00a1d6;
+}
+
+#app .yuanjiao {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#app .ex-up {
+    color: #ccc;
+}
+
+#app .textShadow {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 1);
+}
+
+
+/* 头部公共样式*/
+
+#app .el-container .el-header {
+    box-sizing: border-box;
+}
